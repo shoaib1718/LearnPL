@@ -1,0 +1,35 @@
+<nav>
+        <ul>
+            <li><a href="#basics">Basics of Java</a></li>
+            <li><a href="#classes">Class, Object, and Types of classes</a></li>
+            <li><a href="#packages">Packages in Java</a></li>
+            <li><a href="#data-types">Data types in Java</a></li>
+            <li><a href="#variables">Variables, Constants, and Literals</a></li>
+            <li><a href="#methods">Methods in Java</a></li>
+            <li><a href="#constructor">Constructor in Java</a></li>
+            <li><a href="#modifiers">Modifiers in Java</a></li>
+            <li><a href="#static">Static Keyword</a></li>
+            <li><a href="#final">Final Keyword</a></li>
+            <li><a href="#inner-class">Inner Class in Java</a></li>
+            <li><a href="#super-this">Super and this Keyword</a></li>
+            <li><a href="#oops">OOPs concepts</a></li>
+            <li><a href="#encapsulation">Encapsulation</a></li>
+            <li><a href="#inheritance">Inheritance</a></li>
+            <li><a href="#polymorphism">Polymorphism</a></li>
+            <li><a href="#abstraction">Abstraction</a></li>
+            <li><a href="#garbage-collection">Garbage Collection</a></li>
+            <li><a href="#input-output">Input-Output Stream</a></li>
+            <li><a href="#collections">Collections Framework</a></li>
+            <li><a href="#serialization">Serialization</a></li>
+            <li><a href="#exception-handling">Exception Handling in Java</a></li>
+            <li><a href="#annotations">Java Annotations</a></li>
+            <li><a href="#reflection">Reflection in Java</a></li>
+            <li><a href="#array">Java Array</a></li>
+            <li><a href="#string">String, String Buffer, String Builder</a></li>
+            <li><a href="#thread">Java Thread</a></li>
+            <li><a href="#jdbc">JDBC</a></li>
+            <li><a href="#agile">Agile</a></li>
+            <li><a href="#design-pattern">Design Pattern</a></li>
+            <li><a href="#database">Database</a></li>
+        </ul>
+    </nav>

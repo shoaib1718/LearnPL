@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <main>
+        <section>
+            <br>
+
+
+            <div class="div1">
+                In this section, we are going to learn, what happens while we compile and run the Java program.
+                Moreover, we will see some questions based on the first program.
+            </div>
+            <br>
+            <h2><u>What happens at compile time?</u></h2>
+
+            <div class="div1">
+                At compile time, the Java file is compiled by Java Compiler (It does not interact with OS) and converts
+                the Java code into bytecode.
+            </div>
+
+            <img src="javacodecompile.png" alt="java" class="javaImg">
+            <div class="div1">
+                <h2> <u> What happens at runtime? </u> </h2>
+                <div class="div1-img">
+
+                    <img src="javaruntime.png" alt="" id="javaruntime">
+                </div>
+
+                <br>
+                <br>
+                After writing the program, programmer needs to compile that program. As soon as the programmer starts
+                compiling the program using javac compiler, the compile time gets started, and it ends when either a
+                .class file is generated after successful compilation or an error is thrown in compilation. In other way
+                we can say, the process of compiling a program is referred as compile time.
+            </div>
+            <br>
+            <h2> <u>How to set path in Java </u> </h2>
+            <div class="div1">
+                The path is required to be set for using tools such as javac, java, etc.
+
+                If you are saving the Java source file inside the JDK/bin directory, the path is not required to be set
+                because all the tools will be available in the current directory.
+
+                However, if you have your Java file outside the JDK/bin folder, it is necessary to set the path of JDK.
+
+                There are two ways to set the path in Java:
+                <ol>
+                    <li>Temporary</li>
+                    <li>Permanent</li>
+                </ol>
+                For more details and information visit <a
+                    href="https://www.javatpoint.com/how-to-set-path-in-java">javatpoint</a> website.
+
+            </div>
+            <br>
+            <h2><u>Difference between JDK, JRE, and JVM</u></h2>
+            <div class="div1">
+                We must understand the differences between JDK, JRE, and JVM before proceeding further to Java. See the
+                brief overview of JVM here. <br>
+
+                Firstly, let's
+                see the differences between the JDK, JRE, and JVM.
+                <br><br>
+                <h3><u>JVM</u></h3>
+                JVM (Java Virtual Machine) is an abstract machine. It is called a virtual machine because it doesn't
+                physically exist. It is a specification that provides a runtime environment in which Java bytecode can
+                be executed. It can also run those programs which are written in other languages and compiled to Java
+                bytecode.
+
+                JVMs are available for many hardware and software platforms. JVM, JRE, and JDK are platform dependent
+                because the configuration of each OS is different from each other. However, Java is platform
+                independent. There are three notions of the JVM: specification, implementation, and instance. <br>
+                The JVM performs the following main tasks:
+                <ul>
+                    <li>Loads code</li>
+                    <li>Verifies code</li>
+                    <li>Executes code</li>
+                    <li>Provides runtime environment</li>
+                </ul>
+                <br>
+
+                <h3><u>JRE</u></h3>
+                JRE is an acronym for Java Runtime Environment. It is also written as Java RTE. The Java Runtime
+                Environment is a set of software tools which are used for developing Java applications. It is used to
+                provide the runtime environment. It is the implementation of JVM. It physically exists. It contains a
+                set of libraries + other files that JVM uses at runtime. <br> <br>
+
+                <h3><u>JDK</u></h3>
+                JDK is an acronym for Java Development Kit. The Java Development Kit (JDK) is a software development
+                environment which is used to develop Java applications and applets. It physically exists. It contains
+                JRE + development tools. <br>
+
+                JDK is an implementation of any one of the below given Java Platforms released by Oracle Corporation:
+                <br>
+                <ul>
+                    <li>Standard Edition Java Platform</li>
+                    <li>Enterprise Edition Java Platform</li>
+                    <li>Micro Edition Java Platform</li>
+                </ul>
+                The JDK contains a private Java Virtual Machine (JVM) and a few other resources such as an
+                interpreter/loader (java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc),
+                etc. to complete the development of a Java Application.
+
+
+            </div>
+
+
+
+        </section>
+        <br>
+        <p>All the content was taken from
+            <a href="https://www.javatpoint.com/java-basics">Javatpoint
+
+            </a> Website
+        </p>
+    </main>
+    <div class="div1" id="pag">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="Java2.html" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="Java.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="Java2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="Java3.html">3</a></li>
+                <li class="page-item"><a class="page-link" href="Java4.html">4</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="Java4.html">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+
+    <br>
+    <footer class="footer">
+        <ul> <a href="#">Home</a></ul>
+        <ul> <a href="#">Contact</a></ul>
+        <ul> <a href="#">About Us</a></ul>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
