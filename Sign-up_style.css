@@ -166,4 +166,9 @@ input {
         padding-right: 50px;
         background-color: wheat;
     }
+
+    .msg{
+        /* visibility: hidden; */
+        display: none;
+    }
 }
