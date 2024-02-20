@@ -25,6 +25,7 @@ body {
     /* background-color: black; */
     width: 600px;
     height: 250px;
+    padding-left: 25px;
 
     color: rgb(10, 11, 11);
     font-size: 29px;
